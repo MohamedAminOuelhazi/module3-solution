@@ -1,50 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food, LLC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3 Solution</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
+<body>
     <!-- Navbar -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
+            <!-- Brand and toggle button for mobile -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Food, LLC</a>
             </div>
-            <div class="collapse navbar-collapse" id="navbar-menu">
+
+            <!-- Dropdown menu for mobile -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav visible-xs">
                     <li><a href="#chicken">Chicken</a></li>
                     <li><a href="#beef">Beef</a></li>
                     <li><a href="#sushi">Sushi</a></li>
                 </ul>
-            </div>
-        </div>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
     </nav>
 
     <!-- Page Heading -->
-    <div class="container text-center">
-        <h1>Our Menu</h1>
+    <div class="container">
+        <h1 class="text-center">Our Menu</h1>
     </div>
 
-    <!-- Content Section -->
-    <div class="container">
+    <!-- Sections -->
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 section">
-                <p>This is a really tall section to enable scrolling. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris quam. Mauris nec nulla ut nisi gravida aliquet. Vestibulum auctor libero at magna gravida, non interdum erat lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <!-- Chicken Section -->
+            <div class="col-xs-12 col-sm-6 col-md-4 section">
+                <div class="section-content">
+                    <h3 id="chicken" class="text-center">Chicken</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        <a href="#top">Back to Top</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Beef Section -->
+            <div class="col-xs-12 col-sm-6 col-md-4 section">
+                <div class="section-content">
+                    <h3 id="beef" class="text-center">Beef</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        <a href="#top">Back to Top</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Sushi Section -->
+            <div class="col-xs-12 col-sm-12 col-md-4 section">
+                <div class="section-content">
+                    <h3 id="sushi" class="text-center">Sushi</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br><br>
+                        <a href="#top">Back to Top</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>

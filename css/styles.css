@@ -1,13 +1,47 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
-.navbar {
-    margin-bottom: 0;
-}
-
+/* Custom styles for the sections */
 .section {
-    height: 1000px;
+    padding: 15px;
+}
+
+.section-content {
     background-color: #f8f9fa;
+    /* Light gray background */
     padding: 20px;
+    height: 700px;
+    /* Makes the section tall */
+    border: 1px solid #ddd;
+    /* Optional: Adds a border */
+}
+
+/* Optional: Style the "Back to Top" link */
+.section-content a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #337ab7;
+    /* Bootstrap's default link color */
+}
+
+/* Optional: Add some spacing and styling for the navbar */
+.navbar {
+    border-radius: 0;
+    /* Removes rounded corners */
+    margin-bottom: 0;
+    /* Removes default margin */
+}
+
+/* Optional: Style the dropdown menu for mobile */
+.navbar-nav {
+    margin: 0 -15px;
+    /* Aligns dropdown menu with navbar edges */
+}
+
+.navbar-nav li a {
+    text-align: center;
+    /* Centers dropdown menu items */
+    padding: 10px;
+    background-color: #e7e7e7;
+    /* Light background for dropdown items */
+    border-bottom: 1px solid #ddd;
+    /* Adds a border between items */
 }
